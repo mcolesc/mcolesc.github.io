@@ -25,6 +25,9 @@ aside {
     position: absolute;
     display: inline;
     font-size: larger;
+}
+
+.content {
     margin-left: 15%;
     margin-right: 10%;
 }
