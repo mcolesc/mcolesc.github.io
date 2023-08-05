@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+header {
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+aside {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 25%;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 800px;
+}
+
+.content {
+    position: absolute;
+    display: inline;
+    font-size: larger;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th {
+    width: 175px;
+}
+
+.tabledata {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+#match {
+    visibility: hidden;
+}
+
+#menu {
+    position: absolute;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+
+#menu * {
+    display: inline;
+}
+
+#menu li {
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu li:hover {
+    font-style: italic;
+    background-color: rgb(206, 206, 206);
+}
